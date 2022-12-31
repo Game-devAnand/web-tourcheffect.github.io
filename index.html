@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Entro ento</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <div class="img">
+          <img class="pic" id="1" src="imgs/1.jpeg" />
+          <img class="pic" id="2" src="imgs/2.jpeg" />
+          <img class="pic" id="3" src="imgs/3.jpeg" />
+          <img class="pic" id="3" src="imgs/3b.jpg" />
+        </div>
+        <h2 id="txt">2022</h2>
+        <p id="txt">journey of CSE21</p>
+        <p id="txt">Entro ento</p>
+        <div class="img">
+          <img class="pic" id="4" src="imgs/4.jpeg" />
+          <img class="pic" id="5" src="imgs/5.jpeg" />
+          <img class="pic" id="6" src="imgs/6.jpg" />
+          <img class="pic" id="7" src="imgs/7.jpeg" />
+          <img class="pic" id="8" src="imgs/8.jpeg" />
+        </div>
+        <h2 id="txt">2023</h2>
+        <p id="txt">Loading...</p>
+      </div>
+    </section>
+    <div class="light"></div>
+    <script type="text/javascript">
+      var pos = document.documentElement;
+      pos.addEventListener("mousemove", (e) => {
+        pos.style.setProperty("--x", e.clientX + "px");
+        pos.style.setProperty("--y", e.clientY + "px");
+      });
+    </script>
+  </body>
+</html>
